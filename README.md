@@ -2,10 +2,10 @@
 
 > A strict, local-first performance dashboard combining **RingConn** recovery data with **Strava** training loads.
 > 
-> **🌱 AI (Google Gemini) is completely optional.** This dashboard works perfectly as a standalone metrics tracker (Fitness, Fatigue, Trends) without any API Key.
+> **🌱 AI (Google Gemini) is completely optional.** This dashboard works perfectly as a standalone metrics track
+er (Fitness, Fatigue, Trends) without any API Key.
 
-![Dashboard Preview](https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6) 
-*(Note: Replace with actual screenshot)*
+![dashboard](https://github.com/user-attachments/assets/c69bd2e3-076f-4a3e-85ba-0e584f7d927f)
 
 ## ✨ Features
 

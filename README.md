@@ -86,16 +86,22 @@ Open `http://localhost:5173` (or the port shown in terminal).
 - Enter your **Google Gemini API Key**.
 - Select your preferred **Language**.
 
-### 3. Get Coached
+### 3. Get Coached (Optional)
 - **Global Coach**: Click "Ask Coach" on the dashboard for a strategic review of your last 30 days.
 - **Session Audit**: Go to **ANALYSIS**, select a workout, and get a detailed breakdown of that specific session's effectiveness.
+
+> **Note:** The AI features are completely optional. The dashboard works perfectly as a metrics tracker (CTL, ATL, TSB, Trends) without an API Key.
 
 ## 🔒 Data Privacy & Security
 
 We take a **Local-First** approach:
-- **Storage**: All `History`, `Logs`, and `UserProfile` data lives in your browser's `IndexedDB`.
+- **IndexedDB Storage**: Your data is stored in a structured database inside your browser. It persists even if you close the tab.
+- **No Cloud Sync**: We do not have a backend server. If you clear your browser cookies/data, your dashboard will be wiped.
+- **Backup Strategy**: 
+  - Go to **Settings** (Gear Icon).
+  - Click **EXPORT DATA**. This saves a JSON file with your entire history and logs.
+  - Use **RESTORE DATA** to load this file on a different device or browser.
 - **API Calls**: Data is only sent to Google Gemini when you explicitly click "Analyze". Only relevant, anonymized metrics (HR Zones, duration, sleep score) are sent.
-- **Backup**: You can **Export** your full database as a JSON file and **Restore** it anytime from the Settings (Gear Icon).
 
 ## 🤝 Contributing
 

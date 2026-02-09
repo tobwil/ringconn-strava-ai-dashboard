@@ -62,9 +62,12 @@ const HelpModal: React.FC<HelpModalProps> = ({ onClose }) => {
                             <h4 className="font-bold text-lg mt-4">3. Backup & Restore (JSON)</h4>
                             <p className="text-sm">In the Sidebar Settings (Gear Icon), you can:</p>
                             <ul className="list-disc list-inside text-sm ml-2">
-                                <li><strong>EXPORT:</strong> Save a full backup of your database.</li>
+                                <li><strong>EXPORT:</strong> Save a full backup of your database (IndexedDB).</li>
                                 <li><strong>RESTORE:</strong> Load a backup JSON file to restore everything.</li>
                             </ul>
+                            <NeoCard className="bg-blue-50 p-4 border-2 mt-4">
+                                <p className="text-sm font-bold">Use this to move data between devices or browsers!</p>
+                            </NeoCard>
                         </div>
                     )}
 
@@ -72,7 +75,10 @@ const HelpModal: React.FC<HelpModalProps> = ({ onClose }) => {
                         <div className="space-y-4">
                             <h3 className="font-black text-xl">AI Logic & Prompts</h3>
                             <p className="text-sm">
-                                We want you to know exactly what the AI sees and does.
+                                The AI features are <strong>optional</strong>. The dashboard calculates all metrics (Fitness, Fatigue, Trends) locally without an API Key.
+                            </p>
+                            <p className="text-sm">
+                                If you enable AI, we use <strong>Google Gemini 1.5 Flash</strong>. We want you to know exactly what it sees.
                             </p>
 
                             <div className="border-2 border-black p-3 bg-gray-50">

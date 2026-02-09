@@ -78,7 +78,7 @@ const HelpModal: React.FC<HelpModalProps> = ({ onClose }) => {
                                 The AI features are <strong>optional</strong>. The dashboard calculates all metrics (Fitness, Fatigue, Trends) locally without an API Key.
                             </p>
                             <p className="text-sm">
-                                If you enable AI, we use <strong>Google Gemini 1.5 Flash</strong>. We want you to know exactly what it sees.
+                                If you enable AI, we use <strong>Google Gemini 2.5 Flash</strong>. We want you to know exactly what it sees.
                             </p>
 
                             <div className="border-2 border-black p-3 bg-gray-50">

@@ -50,7 +50,7 @@ The app combines two data streams to calculate your **Readiness**:
 -   **Charts**: Recharts
 -   **Icons**: Lucide React
 -   **Database**: IndexedDB (via `idb` library)
--   **AI**: Google Generative AI SDK (Gemini 1.5 Flash)
+-   **AI**: Google Generative AI SDK (Gemini 2.5 Flash)
 
 ### Prerequisites
 - Node.js (v18+)

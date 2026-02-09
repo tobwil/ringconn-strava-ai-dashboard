@@ -1,6 +1,8 @@
 # 🏃‍♂️ RingConn x Strava AI Coach Dashboard
 
-> A strict, local-first performance dashboard combining **RingConn** recovery data with **Strava** training loads. Powered by **Google Gemini**.
+> A strict, local-first performance dashboard combining **RingConn** recovery data with **Strava** training loads.
+> 
+> **🌱 AI (Google Gemini) is completely optional.** This dashboard works perfectly as a standalone metrics tracker (Fitness, Fatigue, Trends) without any API Key.
 
 ![Dashboard Preview](https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6) 
 *(Note: Replace with actual screenshot)*

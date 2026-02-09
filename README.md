@@ -16,9 +16,41 @@
   - No external database. You own your data.
 - **Multi-Language AI**: Coach speaks **English, German, Spanish, or French**.
 
+## 🎯 The Mission
+
+Fitness apps today are cluttered. They want you to be "social", they want you to subscribe, they want to sell you plans. 
+
+**This dashboard is different.**
+- It is **Brutalist**: No fluff, just raw data and direct advice.
+- It is **Private**: Your health data is yours. It lives on your device.
+- It is **Holistic**: It understands that *Rest* (RingConn) is just as important as *Strain* (Strava).
+
+## 🧠 How it Works
+
+The app combines two data streams to calculate your **Readiness**:
+
+1.  **Training Load (Strava)**:
+    -   We calculate TRIMP (Training Impulse) for every activity based on Heart Rate Zones.
+    -   **Fitness (CTL)**: 42-day rolling average of your load.
+    -   **Fatigue (ATL)**: 7-day rolling average of your load.
+
+2.  **Recovery (RingConn)**:
+    -   We track Sleep Score, HRV, and Resting Heart Rate.
+    -   These modulate your readiness. High load + Poor sleep = **High Risk**.
+
+3.  **The AI Coach**:
+    -   Gemini analyzes the correlation between your *Subjective Feeling* (Daily Check-in) and your *Objective Metrics*.
+    -   It acts as a stern but fair coach, keeping you accountable to your specific goal.
+
 ## 🚀 One-Click Run (Locally)
 
-This project is built with **React**, **Vite**, and **Tailwind CSS**.
+## ⚡ Tech Stack
+
+-   **Frontend**: React (Vite), TypeScript, Tailwind CSS
+-   **Charts**: Recharts
+-   **Icons**: Lucide React
+-   **Database**: IndexedDB (via `idb` library)
+-   **AI**: Google Generative AI SDK (Gemini 1.5 Flash)
 
 ### Prerequisites
 - Node.js (v18+)

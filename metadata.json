@@ -1,0 +1,5 @@
+{
+  "name": "RingConn x Strava Monitoring Dashboard",
+  "description": "A Neobrutalist health dashboard for analyzing Strava GPX files and health metrics using Gemini AI to provide actionable insights.",
+  "requestFramePermissions": []
+}
